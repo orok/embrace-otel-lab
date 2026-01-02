@@ -1,0 +1,16 @@
+node_modules
+dist
+.DS_Store
+
+# Vite
+app/node_modules
+app/dist
+app/.env*
+app/.vite
+
+# Tools
+tools/**/node_modules
+tools/**/dist
+
+# Docker noise
+otel/.otel-cache

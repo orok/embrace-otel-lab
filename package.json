@@ -1,0 +1,8 @@
+{
+  "name": "embrace-otel-lab",
+  "private": true,
+  "workspaces": [
+    "app",
+    "tools/*"
+  ]
+}
