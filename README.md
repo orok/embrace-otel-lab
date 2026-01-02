@@ -4,19 +4,6 @@ A minimal, reproducible “integration lab” that demonstrates how a web app ca
 
 ---
 
-## Why this project exists (Solutions Engineer POV)
-
-This repo mirrors what Solutions Engineers do day-to-day:
-
-- Get a customer integrated fast with a clear “golden path”
-- Make issues reproducible with a clean local baseline
-- Root-cause quickly with a checklist/tooling
-- Improve docs/runbooks so Support/CS/Sales can self-serve
-
-If you can run this lab end-to-end, you have a proven reference environment for diagnosing real-world integration issues.
-
----
-
 ## Repository layout
 
 - `app/`  
@@ -62,7 +49,7 @@ If you can run this lab end-to-end, you have a proven reference environment for 
 
 ---
 
-## Quickstart (10 minutes)
+## Quickstart 
 
 ### 1) Install dependencies (run in repo root)
 
