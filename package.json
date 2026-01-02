@@ -4,5 +4,13 @@
   "workspaces": [
     "app",
     "tools/*"
-  ]
+  ],
+   "scripts": {
+    "lab:up": "cd otel && docker compose up -d",
+    "lab:down": "cd otel && docker compose down",
+    "app:dev": "npm -w app run dev",
+    "doctor": "node tools/embrace-doctor/dist/index.js check"
+  }
 }
+
+
