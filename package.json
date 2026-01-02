@@ -10,6 +10,15 @@
     "lab:down": "cd otel && docker compose down",
     "app:dev": "npm -w app run dev",
     "doctor": "node tools/embrace-doctor/dist/index.js check"
+  },
+  "scripts": {
+    "lab:up": "cd otel && docker compose up -d",
+    "lab:down": "cd otel && docker compose down",
+    "lab:logs": "cd otel && docker compose logs -f otel-collector",
+    "app:dev": "npm -w app run dev",
+    "doctor:dev": "npm -w tools/embrace-doctor run dev -- check",
+    "doctor:build": "npm -w tools/embrace-doctor run build",
+    "doctor": "node tools/embrace-doctor/dist/index.js check"
   }
 }
 
